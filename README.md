@@ -27,7 +27,7 @@ Step 6: After processing all tokens, the final result is at the top of the stack
 Step 7: Stop the program.
 
 # PROGRAM: 
-
+```
 
 OPERATORS=set(['*','-','+','/'])
 
@@ -66,7 +66,7 @@ m = input()
 print("postfix expression: ",m)
 n=m.split()
 print("Evaluation result: ",evaluate_postfix(n))
-
+```
 # OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/583007aa-9431-4425-a5c1-dcc8b5f7f61e)
